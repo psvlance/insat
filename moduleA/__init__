@@ -1,3 +1,0 @@
-from . import some_stuff
-
-__all__ = [some_stuff.SomeClass, ]

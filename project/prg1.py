@@ -1,7 +1,4 @@
-import sys
-sys.path.insert(0, '../moduleA')
-
-from some_stuff import SomeClass
+import not_relative_imports
 
 
-sc = SomeClass()
+sc = not_relative_imports.SomeClass()
